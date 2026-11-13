@@ -1,0 +1,75 @@
+tagline|Understanding Ahara Through Ayurveda.|आयुर्वेद के माध्यम से आहार की समझ।|आयुर्वेदद्वारा आहारावबोधः।
+back|Back|वापस|प्रतिगच्छ
+next|Next|आगे|अग्रे
+previous|Previous|पिछला|पूर्वम्
+get_started|Get started|शुरू करें|आरभताम्
+save|Save|सहेजें|रक्ष
+save_continue|Save & continue|सहेजें और आगे बढ़ें|रक्षित्वा अग्रे गच्छ
+skip_for_now|Skip for now|अभी छोड़ें|इदानीं त्यज
+cancel|Cancel|रद्द करें|निरस्य
+delete|Delete|हटाएँ|अपनय
+edit|Edit|संपादित करें|संशोधय
+record|Record|दर्ज करें|अभिलिख
+close|Close|बंद करें|पिधेहि
+clear|Clear|साफ़ करें|मार्जय
+i_agree|I agree|मैं सहमत हूँ|अहं सम्मतः
+today|Today|आज|अद्य
+yesterday|Yesterday|कल|ह्यः
+daily|Daily|दैनिक|दैनिकम्
+weekly|Weekly|साप्ताहिक|साप्ताहिकम्
+monthly|Monthly|मासिक|मासिकम्
+hours_short|h|घं.|हो.
+glasses|glasses|गिलास|चषकाः
+day_avg|day (avg)|दिन (औसत)|दिनम् (सरासरी)
+yama|Yama|याम|यामः
+one_yama|1 Yama|1 याम|एकः यामः
+two_yamas|2 Yamas|2 याम|यामयुग्मम्
+nav_home|Home|होम|गृहम्
+nav_diary|Diary|डायरी|दैनिकी
+nav_analytics|Analytics|विश्लेषण|विश्लेषणम्
+nav_more|More|अधिक|अधिकम्
+welcome_title|Welcome to AHARA|आहार में आपका स्वागत है|आहारे स्वागतम्
+welcome_body|AHARA helps you observe when you eat, how hungry you are, how you feel after meals and how your energy changes — through the lens of a classical Ayurvedic verse on food timing. Everything you record stays on your phone.|आहार आपको यह देखने में मदद करता है कि आप कब खाते हैं, कितनी भूख होती है, भोजन के बाद कैसा लगता है और आपकी ऊर्जा कैसे बदलती है — भोजन-समय पर एक शास्त्रीय आयुर्वेदिक श्लोक के दृष्टिकोण से। आपका सारा डेटा आपके फ़ोन में ही रहता है।|आहारः भवतः भोजनकालं, क्षुधां, भोजनोत्तरानुभवं, बलपरिवर्तनं च निरीक्षितुं साहाय्यं करोति — भोजनकालविषयकस्य शास्त्रीयायुर्वेदश्लोकस्य दृष्ट्या। सर्वं अभिलिखितं भवतः दूरवाणौ एव तिष्ठति।
+shloka_title|The Foundational Shloka|मूल श्लोक|मूलश्लोकः
+shloka_meaning_short|Do not eat within one Yama; do not let two Yamas pass. Eating within a Yama disturbs Rasa; going beyond two Yamas diminishes strength (Bala).|एक याम के भीतर भोजन न करें; दो याम का उल्लंघन न करें। याम के भीतर खाने से रस का उद्वेग होता है; दो याम बीतने पर बल का क्षय होता है।|याममध्ये न भोक्तव्यम्; यामयुग्मं न लंघयेत्। याममध्ये भोजनेन रसोद्वेगः; युग्मातीते बलक्षयः।
+modules_title|Four observation modules|चार निरीक्षण मॉड्यूल|चत्वारि निरीक्षणाङ्गानि
+privacy_title|Privacy & consent|गोपनीयता एवं सहमति|गोपनीयता अनुमतिश्च
+privacy_short|Your data is stored only on this device. Nothing is uploaded or shared unless you choose to export it. Research data is collected only with your separate, explicit consent and is anonymised.|आपका डेटा केवल इसी डिवाइस में संग्रहीत है। जब तक आप स्वयं निर्यात न करें, कुछ भी अपलोड या साझा नहीं होता। शोध डेटा केवल आपकी अलग, स्पष्ट सहमति से और अनाम रूप में लिया जाता है।|भवतः दत्तांशः केवलम् अस्मिन् यन्त्रे संगृह्यते। भवता न निर्यातितं चेत् किमपि न प्रेष्यते। शोधदत्तांशः केवलं पृथक् स्पष्टानुमत्या अनामरूपेण च गृह्यते।
+disclaimer|AHARA records self-reported observations within a traditional Ayurvedic framework. It does not diagnose, treat or prescribe, and its observations are not validated medical assessments. Consult a qualified physician or Ayurveda practitioner for health concerns.|आहार पारंपरिक आयुर्वेदिक ढाँचे में स्व-रिपोर्ट किए गए निरीक्षण दर्ज करता है। यह निदान, उपचार या पथ्य-निर्धारण नहीं करता, और इसके निरीक्षण प्रमाणित चिकित्सीय आकलन नहीं हैं। स्वास्थ्य संबंधी चिंता के लिए योग्य चिकित्सक या आयुर्वेद वैद्य से परामर्श करें।|आहारः पारम्परिकायुर्वेदचौकटे स्वयं-निवेदितनिरीक्षणानि अभिलिखति। अयं न निदानं, न चिकित्सां, न पथ्यविधानं करोति; निरीक्षणानि प्रमाणितवैद्यकीयपरीक्षणानि न। स्वास्थ्यचिन्तायां योग्यं वैद्यं पृच्छतु।
+consent_check|I understand and agree to store my records on this device.|मैं समझता/समझती हूँ और अपने रिकॉर्ड इस डिवाइस पर संग्रहीत करने के लिए सहमत हूँ।|अवगच्छामि, मम अभिलेखान् अस्मिन् यन्त्रे संग्रहीतुं सम्मतोऽस्मि।
+greeting|Namaste|नमस्ते|नमस्ते
+greeting_name|Namaste, {0}|नमस्ते, {0}|नमस्ते, {0}
+add_meal|Add meal|भोजन जोड़ें|भोजनं योजय
+edit_meal|Edit meal|भोजन संपादित करें|भोजनं संशोधय
+time_since_last_meal|Time since last meal|पिछले भोजन के बाद का समय|अन्तिमभोजनात् कालः
+yama_status_none|No meal recorded yet|अभी तक कोई भोजन दर्ज नहीं|भोजनं न अभिलिखितम्
+yama_status_within|Within the first Yama|पहले याम के भीतर|प्रथमयाममध्ये
+yama_status_window|Between one and two Yamas|एक और दो याम के बीच|एकद्वियाममध्ये
+yama_status_beyond|Beyond two Yamas|दो याम से अधिक|यामयुग्मातीतम्
+yama_reference|Reference: 1 Yama ≈ {0} h (configurable observational benchmark)|संदर्भ: 1 याम ≈ {0} घंटे (परिवर्तनीय निरीक्षण मानदंड)|सन्दर्भः: एकः यामः ≈ {0} होराः (परिवर्तनीयः निरीक्षणमानदण्डः)
+today_meals|Today's meals|आज के भोजन|अद्यतनभोजनानि
+avg_interval_7d|Avg interval (7 days)|औसत अंतराल (7 दिन)|सरासरी अन्तरालम् (7 दिनानि)
+avg_interval|Average interval|औसत अंतराल|सरासरी अन्तरालम्
+avg_interval_h|Avg interval (h)|औसत अंतराल (घं.)|सरासरी अन्तरालम् (हो.)
+regularity|Meal timing regularity|भोजन-समय नियमितता|भोजनकालनियमितता
+discomfort_freq|Post-meal discomfort|भोजनोत्तर असुविधा|भोजनोत्तरासुखम्
+last_meal|Last recorded meal|पिछला दर्ज भोजन|अन्तिमम् अभिलिखितभोजनम्
+no_meals_yet|No meals recorded yet. Tap “Add meal” to begin.|अभी कोई भोजन दर्ज नहीं। शुरू करने के लिए “भोजन जोड़ें” दबाएँ।|भोजनं न अभिलिखितम्। आरम्भाय “भोजनं योजय” स्पृशतु।
+record_response|Record post-meal response|भोजनोत्तर प्रतिक्रिया दर्ज करें|भोजनोत्तरप्रतिक्रियाम् अभिलिख
+todays_observations|Today's observations|आज के निरीक्षण|अद्यतननिरीक्षणानि
+observations|Observations|निरीक्षण|निरीक्षणानि
+observations_note|Descriptive patterns from your own records — not a diagnosis.|आपके रिकॉर्ड से वर्णनात्मक पैटर्न — निदान नहीं।|भवतः अभिलेखेभ्यः वर्णनात्मकाः प्रवृत्तयः — न निदानम्।
+hydration_sleep|Hydration & sleep|जल एवं निद्रा|जलं निद्रा च
+water|Water|जल|जलम्
+sleep_last_night|Sleep|नींद|निद्रा
+hunger_pattern_7d|Hunger before meals (7 days)|भोजन से पहले भूख (7 दिन)|भोजनात् पूर्वं क्षुधा (7 दिनानि)
+energy_trend_7d|Energy trend (7 days)|ऊर्जा प्रवृत्ति (7 दिन)|बलप्रवृत्तिः (7 दिनानि)
+energy_scale_hint|Average self-rated energy before meals (1–5)|भोजन से पहले औसत स्व-आकलित ऊर्जा (1–5)|भोजनात् पूर्वं सरासरी स्वमूल्याङ्कितं बलम् (1–5)
+shloka_modules|Shloka modules|श्लोक मॉड्यूल|श्लोकाङ्गानि
+m_all_sa|Text, meaning and interpretation|पाठ, अर्थ एवं व्याख्या|पाठः अर्थः व्याख्या च
+assessments|Assessments|आकलन|परीक्षणानि
+analytics_reports|Analytics & reports|विश्लेषण एवं रिपोर्ट|विश्लेषणं प्रतिवेदनानि च
+account_settings|Profile & settings|प्रोफ़ाइल एवं सेटिंग्स|व्यक्तिविवरणं विन्यासाश्च
+daily_analytics|Daily analytics|दैनिक विश्लेषण|दैनिकविश्लेषणम्
+weekly_analytics|Weekly analytics|साप्ताहिक विश्लेषण|साप्ताहिकविश्लेषणम्
+monthly_analytics|Monthly analytics|मासिक विश्लेषण|मासिकविश्लेषणम्

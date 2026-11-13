@@ -1,0 +1,135 @@
+profile_title|Profile|प्रोफ़ाइल|व्यक्तिविवरणम्
+profile_sub|Name, age range, lifestyle|नाम, आयु वर्ग, जीवनशैली|नाम, वयोवर्गः, जीवनशैली
+profile_setup_hint|Tell AHARA a little about yourself. Every field is optional.|आहार को अपने बारे में थोड़ा बताएँ। हर जानकारी वैकल्पिक है।|आहाराय स्वविषये किञ्चित् वदतु। सर्वं वैकल्पिकम्।
+about_you|About you|आपके बारे में|भवद्विषये
+display_name_optional|Name or display name (optional)|नाम या प्रदर्शन नाम (वैकल्पिक)|नाम (वैकल्पिकम्)
+age_range|Age range|आयु वर्ग|वयोवर्गः
+gender_optional|Gender (optional)|लिंग (वैकल्पिक)|लिङ्गम् (वैकल्पिकम्)
+gender_FEMALE|Female|महिला|स्त्री
+gender_MALE|Male|पुरुष|पुरुषः
+gender_OTHER|Other|अन्य|अन्यत्
+gender_NA|Prefer not to say|बताना नहीं चाहते|न वक्तुम् इच्छामि
+lifestyle|Lifestyle|जीवनशैली|जीवनशैली
+activity_level|Daily activity level|दैनिक सक्रियता स्तर|दैनिकक्रियास्तरः
+act_SEDENTARY|Sedentary|गतिहीन|अल्पचेष्टः
+act_LIGHT|Light|हल्की|लघुचेष्टः
+act_MODERATE|Moderate|मध्यम|मध्यमचेष्टः
+act_ACTIVE|Very active|बहुत सक्रिय|अतिचेष्टः
+diet_pref|Dietary preference|आहार वरीयता|आहाररुचिः
+diet_VEG|Vegetarian|शाकाहारी|शाकाहारी
+diet_LACTO_VEG|Lacto-vegetarian|दुग्ध-शाकाहारी|क्षीरशाकाहारी
+diet_VEGAN|Vegan|वीगन|शुद्धवनस्पत्याहारी
+diet_EGG|Eggetarian|अंडा-शाकाहारी|अण्डाहारी
+diet_NON_VEG|Non-vegetarian|मांसाहारी|मांसाहारी
+diet_SATTVIC|Sattvic|सात्त्विक|सात्त्विकः
+sleep_duration|Usual sleep duration|सामान्य नींद अवधि|सामान्यनिद्राकालः
+lifestyle_notes|Lifestyle notes (work shifts, exercise, etc.)|जीवनशैली टिप्पणी (शिफ्ट, व्यायाम आदि)|जीवनशैलीटिप्पणी (कार्यकालः, व्यायामः इत्यादि)
+assessments_optional|Ayurvedic assessments (optional)|आयुर्वेदिक आकलन (वैकल्पिक)|आयुर्वेदपरीक्षणानि (वैकल्पिकानि)
+assessments_optional_sub|Prakriti and Agni can be added now or later.|प्रकृति और अग्नि अभी या बाद में जोड़ सकते हैं।|प्रकृतिः अग्निश्च इदानीं पश्चाद्वा योजनीयौ।
+prakriti|Prakriti|प्रकृति|प्रकृतिः
+agni|Agni|अग्नि|अग्निः
+prakriti_title|Prakriti assessment|प्रकृति आकलन|प्रकृतिपरीक्षणम्
+prakriti_sub|Vata · Pitta · Kapha constitution|वात · पित्त · कफ प्रकृति|वातपित्तकफप्रकृतिः
+agni_title|Agni assessment|अग्नि आकलन|अग्निपरीक्षणम्
+agni_sub|Sama · Vishama · Tikshna · Manda|सम · विषम · तीक्ष्ण · मंद|समविषमतीक्ष्णमन्दाः
+prakriti_intro|Choose the option that describes you best over most of your life, not just recently.|वह विकल्प चुनें जो आपके जीवन के अधिकांश समय के लिए सबसे उपयुक्त हो, केवल हाल का नहीं।|यत् भवतः जीवनस्य बहुकालं वर्णयति तत् चिनोतु, न केवलं साम्प्रतिकम्।
+agni_intro|Choose the option that best describes your digestion over the past few weeks.|वह विकल्प चुनें जो पिछले कुछ सप्ताहों में आपके पाचन का सबसे अच्छा वर्णन करे।|गतसप्ताहेषु भवतः पाचनं यत् सम्यग् वर्णयति तत् चिनोतु।
+assessment_disclaimer|This is a simple educational questionnaire. Its result is a self-assessment (or a record of a practitioner's assessment) and is not a clinically validated diagnosis.|यह एक सरल शैक्षिक प्रश्नावली है। इसका परिणाम स्व-आकलन (या वैद्य के आकलन का रिकॉर्ड) है, नैदानिक रूप से प्रमाणित निदान नहीं।|इयं सरला शैक्षिकी प्रश्नावली। अस्याः फलं स्वपरीक्षणम् (वैद्यपरीक्षणाभिलेखः वा), न तु प्रमाणितं निदानम्।
+questionnaire|Questionnaire|प्रश्नावली|प्रश्नावली
+record_known_result|Record a known result|ज्ञात परिणाम दर्ज करें|ज्ञातफलम् अभिलिख
+select_result|Select result|परिणाम चुनें|फलं चिनु
+assessment_source|Assessment source|आकलन स्रोत|परीक्षणस्रोतः
+src_SELF|Self-assessment|स्व-आकलन|स्वपरीक्षणम्
+src_PRACTITIONER|Practitioner-assisted|वैद्य-सहायता से|वैद्यसाहाय्येन
+practitioner_name|Practitioner name (optional)|वैद्य का नाम (वैकल्पिक)|वैद्यनाम (वैकल्पिकम्)
+answered_n|{0} of {1} answered|{1} में से {0} उत्तर दिए|{1} मध्ये {0} उत्तरितानि
+save_assessment|Save assessment|आकलन सहेजें|परीक्षणं रक्ष
+result|Result|परिणाम|फलम्
+history|History|इतिहास|इतिहासः
+no_assessments|No assessments recorded.|कोई आकलन दर्ज नहीं।|परीक्षणं न अभिलिखितम्।
+self_reported|Self-reported|स्व-रिपोर्ट|स्वनिवेदितम्
+practitioner_assisted|Practitioner|वैद्य|वैद्यः
+res_VATA|Vata|वात|वातः
+res_PITTA|Pitta|पित्त|पित्तम्
+res_KAPHA|Kapha|कफ|कफः
+res_VATA_PITTA|Vata-Pitta (Dvandvaja)|वात-पित्त (द्वंद्वज)|वातपित्तजा (द्वन्द्वजा)
+res_PITTA_KAPHA|Pitta-Kapha (Dvandvaja)|पित्त-कफ (द्वंद्वज)|पित्तकफजा (द्वन्द्वजा)
+res_VATA_KAPHA|Vata-Kapha (Dvandvaja)|वात-कफ (द्वंद्वज)|वातकफजा (द्वन्द्वजा)
+res_TRIDOSHA|Tridoshaja (Sama)|त्रिदोषज (सम)|त्रिदोषजा (समा)
+res_SAMAGNI|Samagni|समाग्नि|समाग्निः
+res_VISHAMAGNI|Vishamagni|विषमाग्नि|विषमाग्निः
+res_TIKSHNAGNI|Tikshnagni|तीक्ष्णाग्नि|तीक्ष्णाग्निः
+res_MANDAGNI|Mandagni|मंदाग्नि|मन्दाग्निः
+res_VATA_desc|Answers lean toward Vata qualities — light, dry, mobile, variable.|उत्तर वात गुणों की ओर झुकते हैं — लघु, रूक्ष, चल, अस्थिर।|उत्तराणि वातगुणान् प्रति — लघु, रूक्ष, चल, विषम।
+res_PITTA_desc|Answers lean toward Pitta qualities — warm, sharp, intense, quick.|उत्तर पित्त गुणों की ओर झुकते हैं — उष्ण, तीक्ष्ण, तीव्र, शीघ्र।|उत्तराणि पित्तगुणान् प्रति — उष्ण, तीक्ष्ण, तीव्र, शीघ्र।
+res_KAPHA_desc|Answers lean toward Kapha qualities — steady, heavy, smooth, calm.|उत्तर कफ गुणों की ओर झुकते हैं — स्थिर, गुरु, स्निग्ध, शांत।|उत्तराणि कफगुणान् प्रति — स्थिर, गुरु, स्निग्ध, शान्त।
+res_VATA_PITTA_desc|Two doshas — Vata and Pitta — appear about equally prominent.|दो दोष — वात और पित्त — लगभग समान रूप से प्रमुख दिखते हैं।|द्वौ दोषौ — वातपित्ते — प्रायः समप्राधान्यौ।
+res_PITTA_KAPHA_desc|Two doshas — Pitta and Kapha — appear about equally prominent.|दो दोष — पित्त और कफ — लगभग समान रूप से प्रमुख दिखते हैं।|द्वौ दोषौ — पित्तकफौ — प्रायः समप्राधान्यौ।
+res_VATA_KAPHA_desc|Two doshas — Vata and Kapha — appear about equally prominent.|दो दोष — वात और कफ — लगभग समान रूप से प्रमुख दिखते हैं।|द्वौ दोषौ — वातकफौ — प्रायः समप्राधान्यौ।
+res_TRIDOSHA_desc|All three doshas appear in similar proportion.|तीनों दोष लगभग समान अनुपात में दिखते हैं।|त्रयः दोषाः प्रायः समानुपाते दृश्यन्ते।
+res_SAMAGNI_desc|Answers suggest balanced, regular digestive capacity.|उत्तर संतुलित, नियमित पाचन क्षमता की ओर संकेत करते हैं।|उत्तराणि समं नियतं पाचनसामर्थ्यं सूचयन्ति।
+res_VISHAMAGNI_desc|Answers suggest irregular, variable digestion.|उत्तर अनियमित, अस्थिर पाचन की ओर संकेत करते हैं।|उत्तराणि विषमं पाचनं सूचयन्ति।
+res_TIKSHNAGNI_desc|Answers suggest sharp, fast digestion with frequent hunger.|उत्तर तीव्र, शीघ्र पाचन और बार-बार भूख की ओर संकेत करते हैं।|उत्तराणि तीक्ष्णं शीघ्रं पाचनं पुनःपुनः क्षुधां च सूचयन्ति।
+res_MANDAGNI_desc|Answers suggest slow, heavy digestion with low appetite.|उत्तर धीमे, भारी पाचन और कम भूख की ओर संकेत करते हैं।|उत्तराणि मन्दं गुरु पाचनम् अल्पक्षुधां च सूचयन्ति।
+pq1_q|Body frame|शरीर की बनावट|शरीरसंहननम्
+pq1_v|Thin, light; hard to gain weight|पतला, हल्का; वज़न बढ़ना कठिन|कृशम्, लघु; भारवृद्धिः कठिना
+pq1_p|Medium, well-proportioned, muscular|मध्यम, सुडौल, मांसल|मध्यमम्, सुसंहतम्, मांसलम्
+pq1_k|Broad, solid; gains weight easily|चौड़ा, ठोस; वज़न जल्दी बढ़ता है|विशालम्, दृढम्; शीघ्रं भारवृद्धिः
+pq2_q|Skin|त्वचा|त्वक्
+pq2_v|Dry, rough, cool|रूखी, खुरदरी, ठंडी|रूक्षा, खरा, शीता
+pq2_p|Warm, slightly oily, prone to redness|गर्म, थोड़ी तैलीय, लालिमा की प्रवृत्ति|उष्णा, किञ्चित् स्निग्धा, रक्ताभा
+pq2_k|Smooth, thick, cool and moist|चिकनी, मोटी, ठंडी व नम|श्लक्ष्णा, स्थूला, शीता आर्द्रा च
+pq3_q|Hair|बाल|केशाः
+pq3_v|Dry, thin, frizzy|रूखे, पतले, उलझे|रूक्षाः, तनवः, विकीर्णाः
+pq3_p|Fine, soft; early greying or thinning|महीन, मुलायम; जल्दी सफ़ेद या कम होना|सूक्ष्माः, मृदवः; अकालपालित्यम्
+pq3_k|Thick, lustrous, wavy|घने, चमकीले, लहरदार|घनाः, स्निग्धाः, कुञ्चिताः
+pq4_q|Appetite|भूख|क्षुधा
+pq4_v|Irregular — sometimes strong, sometimes absent|अनियमित — कभी तेज़, कभी नहीं|विषमा — कदाचित् तीव्रा कदाचित् न
+pq4_p|Strong; irritable if a meal is delayed|तेज़; भोजन देर होने पर चिड़चिड़ापन|तीव्रा; भोजनविलम्बे क्रोधः
+pq4_k|Steady, moderate; can skip meals easily|स्थिर, मध्यम; भोजन आसानी से छोड़ सकते हैं|स्थिरा, मध्यमा; भोजनत्यागः सुकरः
+pq5_q|Digestion and bowel habit|पाचन एवं मल प्रवृत्ति|पाचनं मलप्रवृत्तिश्च
+pq5_v|Irregular; tends toward gas or constipation|अनियमित; गैस या कब्ज़ की प्रवृत्ति|विषमम्; वातविबन्धप्रवृत्तिः
+pq5_p|Quick; tends toward loose stools|तेज़; पतले मल की प्रवृत्ति|शीघ्रम्; द्रवमलप्रवृत्तिः
+pq5_k|Slow but regular; feels heavy|धीमा पर नियमित; भारीपन|मन्दं किन्तु नियतम्; गौरवम्
+pq6_q|Sleep|नींद|निद्रा
+pq6_v|Light, easily interrupted|हल्की, आसानी से टूटने वाली|अल्पा, सुलभभङ्गा
+pq6_p|Moderate and sound|मध्यम और गहरी|मध्यमा सुस्थिरा च
+pq6_k|Deep, long; hard to wake|गहरी, लंबी; उठना कठिन|गाढा, दीर्घा; प्रबोधः कठिनः
+pq7_q|Under stress you tend to be|तनाव में आप प्रायः होते हैं|तनावे भवान् प्रायः
+pq7_v|Anxious, worried|चिंतित, बेचैन|चिन्तितः, उद्विग्नः
+pq7_p|Irritable, impatient|चिड़चिड़े, अधीर|क्रुद्धः, अधीरः
+pq7_k|Calm, withdrawn|शांत, अलग-थलग|शान्तः, निवृत्तः
+pq8_q|Climate you dislike most|सबसे नापसंद मौसम|अप्रियतमः ऋतुः
+pq8_v|Cold and windy|ठंडा और हवादार|शीतः वातलश्च
+pq8_p|Hot|गर्म|उष्णः
+pq8_k|Cold and damp|ठंडा और नम|शीतः आर्द्रश्च
+aq1_q|Your appetite usually|आपकी भूख प्रायः|भवतः क्षुधा प्रायः
+aq1_sama|Comes at regular, proper times|नियमित, उचित समय पर लगती है|नियते उचिते काले
+aq1_vishama|Is unpredictable — strong one day, absent the next|अनिश्चित — एक दिन तेज़, अगले दिन नहीं|अनियता — एकदा तीव्रा, अन्यदा न
+aq1_tikshna|Is very strong and frequent|बहुत तेज़ और बार-बार|अतितीव्रा पुनःपुनः च
+aq1_manda|Is low; I rarely feel hungry|कम; शायद ही भूख लगती है|अल्पा; क्वचित् एव क्षुधा
+aq2_q|After a normal-sized meal you feel|सामान्य भोजन के बाद आप महसूस करते हैं|सामान्यभोजनानन्तरं भवान् अनुभवति
+aq2_sama|Light and comfortable|हल्का और सहज|लघुतां सुखं च
+aq2_vishama|Sometimes fine, sometimes bloated or gassy|कभी ठीक, कभी पेट फूला या गैस|कदाचित् सुखम्, कदाचित् आध्मानम्
+aq2_tikshna|Hungry again soon, sometimes with burning|जल्दी फिर भूख, कभी जलन के साथ|शीघ्रं पुनः क्षुधा, कदाचित् दाहः
+aq2_manda|Heavy, sleepy or sluggish|भारी, नींद या सुस्ती|गौरवं, तन्द्रा, आलस्यम्
+aq3_q|Food digests|भोजन पचता है|भोजनं पच्यते
+aq3_sama|In the usual time|सामान्य समय में|उचितकाले
+aq3_vishama|Unpredictably|अनिश्चित रूप से|अनियतरूपेण
+aq3_tikshna|Very quickly|बहुत जल्दी|अतिशीघ्रम्
+aq3_manda|Slowly; feels heavy for long|धीरे; देर तक भारी लगता है|मन्दम्; चिरं गुरु अनुभूयते
+aq4_q|If a meal is delayed|यदि भोजन में देर हो|भोजनविलम्बे सति
+aq4_sama|I manage comfortably|मैं सहजता से रह लेता/लेती हूँ|सुखेन तिष्ठामि
+aq4_vishama|It varies a lot|बहुत भिन्न होता है|बहु भिद्यते
+aq4_tikshna|I get irritable, weak or acidic|चिड़चिड़ापन, कमजोरी या अम्लता होती है|क्रोधः, दौर्बल्यम्, अम्लता वा भवति
+aq4_manda|I hardly notice|मुझे पता भी नहीं चलता|प्रायः न जानामि
+aq5_q|Bowel movements are|मल प्रवृत्ति होती है|मलप्रवृत्तिः
+aq5_sama|Regular and well-formed|नियमित और सुगठित|नियता सुबद्धा च
+aq5_vishama|Irregular, alternating, with gas|अनियमित, बदलती, गैस के साथ|विषमा, परिवर्तिनी, सवाता
+aq5_tikshna|Frequent and loose|बार-बार और पतली|पुनःपुनः द्रवा च
+aq5_manda|Slow, heavy or sticky|धीमी, भारी या चिपचिपी|मन्दा, गुर्वी, पिच्छिला वा
+aq6_q|After meals you usually notice|भोजन के बाद आप प्रायः अनुभव करते हैं|भोजनानन्तरं प्रायः
+aq6_sama|Clear mind and steady energy|स्पष्ट मन और स्थिर ऊर्जा|प्रसन्नं मनः स्थिरं बलं च
+aq6_vishama|Energy that varies from meal to meal|हर भोजन पर अलग ऊर्जा|प्रतिभोजनं भिन्नं बलम्
+aq6_tikshna|Thirst and a feeling of heat|प्यास और गर्मी की अनुभूति|तृष्णा उष्णानुभवश्च
+aq6_manda|Lethargy and a coated tongue|सुस्ती और जीभ पर परत|आलस्यं लिप्तजिह्वा च

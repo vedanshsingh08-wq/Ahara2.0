@@ -1,0 +1,101 @@
+meals|Meals|भोजन|भोजनानि
+meals_per_day|Meals per day|प्रतिदिन भोजन|प्रतिदिनं भोजनानि
+avg_interval_per_day|Average interval per day (h)|प्रतिदिन औसत अंतराल (घं.)|प्रतिदिनं सरासरी अन्तरालम् (हो.)
+discomfort_trend|Post-meal discomfort per day|प्रतिदिन भोजनोत्तर असुविधा|प्रतिदिनं भोजनोत्तरासुखम्
+energy_variation|Energy variation|ऊर्जा में परिवर्तन|बलपरिवर्तनम्
+hunger_observations|Hunger before meals|भोजन से पहले भूख|भोजनात् पूर्वं क्षुधा
+comparison_prev|Compared with the previous period|पिछली अवधि से तुलना|पूर्वकालेन तुलना
+comparison_prev_sub|Previous → current|पिछला → वर्तमान|पूर्वम् → वर्तमानम्
+meal_timeline|Meal timing timeline|भोजन समय रेखा|भोजनकालरेखा
+meal_intervals|Meal intervals|भोजन अंतराल|भोजनान्तरालानि
+hunger_post_meal_energy|Hunger, post-meal response & energy|भूख, भोजनोत्तर प्रतिक्रिया एवं ऊर्जा|क्षुधा, भोजनोत्तरप्रतिक्रिया, बलं च
+no_meals_day|No meals recorded on this day.|इस दिन कोई भोजन दर्ज नहीं।|अस्मिन् दिने भोजनं न अभिलिखितम्।
+daily_meal_line|Hunger: {0} · Energy {1} → {2} · {3}|भूख: {0} · ऊर्जा {1} → {2} · {3}|क्षुधा: {0} · बलम् {1} → {2} · {3}
+energy_before_after|Energy before and after meals|भोजन से पहले और बाद ऊर्जा|भोजनात् पूर्वं पश्चाच्च बलम्
+export_pdf|Export PDF report|PDF रिपोर्ट निर्यात करें|PDF प्रतिवेदनं निर्यातय
+export_csv|Export meals as CSV|भोजन CSV में निर्यात करें|भोजनानि CSV रूपेण निर्यातय
+summary|Summary|सारांश|सारांशः
+responses|responses|प्रतिक्रियाएँ|प्रतिक्रियाः
+meal_records|Meal records|भोजन रिकॉर्ड|भोजनाभिलेखाः
+symptom_score|Symptom score|लक्षण अंक|लक्षणाङ्कः
+method|Method & interpretive assumptions|पद्धति एवं व्याख्यात्मक मान्यताएँ|पद्धतिः व्याख्यात्मकस्वीकृतयश्च
+reports_title|Reports & export|रिपोर्ट एवं निर्यात|प्रतिवेदनानि निर्यातश्च
+reports_sub|PDF and CSV downloads|PDF और CSV डाउनलोड|PDF CSV अवतरणानि
+pdf_reports|PDF reports|PDF रिपोर्ट|PDF प्रतिवेदनानि
+pdf_reports_sub|Share or save a formatted report for the selected period.|चुनी गई अवधि की स्वरूपित रिपोर्ट साझा करें या सहेजें।|चितकालस्य प्रतिवेदनं प्रेषयतु रक्षतु वा।
+csv_exports|CSV data|CSV डेटा|CSV दत्तांशः
+csv_exports_sub|Open in Excel, Google Sheets or statistical software.|Excel, Google Sheets या सांख्यिकी सॉफ़्टवेयर में खोलें।|Excel, Google Sheets, सांख्यिकीतन्त्रांशे वा उद्घाटयतु।
+export_meals_csv|Meal diary (CSV)|भोजन डायरी (CSV)|भोजनदैनिकी (CSV)
+export_full_csv|Full data backup (CSV)|पूर्ण डेटा बैकअप (CSV)|सम्पूर्णदत्तांशप्रतिलिपिः (CSV)
+export_anon_csv|Anonymised research dataset (CSV)|अनाम शोध डेटासेट (CSV)|अनामशोधदत्तांशः (CSV)
+anon_requires_consent|The anonymised dataset is available after giving research consent in the Research dashboard.|अनाम डेटासेट शोध डैशबोर्ड में शोध सहमति देने के बाद उपलब्ध है।|अनामदत्तांशः शोधपृष्ठे अनुमतिदानानन्तरं लभ्यः।
+export_privacy_note|Exported files leave AHARA's protection. Share them only with people you trust.|निर्यात की गई फ़ाइलें आहार की सुरक्षा से बाहर होती हैं। केवल विश्वसनीय लोगों से साझा करें।|निर्यातिताः सञ्चिकाः आहारस्य रक्षणात् बहिः भवन्ति। विश्वस्तैः सह एव प्रेषयतु।
+research_title|Research dashboard|शोध डैशबोर्ड|शोधपृष्ठम्
+research_sub|For Ayurveda students & researchers|आयुर्वेद छात्रों एवं शोधकर्ताओं के लिए|आयुर्वेदच्छात्रेभ्यः शोधकेभ्यश्च
+research_ethics|Collecting or publishing data from other participants requires their informed consent and appropriate institutional ethics approval. AHARA never uploads data; datasets move only when you export them.|अन्य प्रतिभागियों का डेटा एकत्र या प्रकाशित करने के लिए उनकी सूचित सहमति और उपयुक्त संस्थागत नैतिकता अनुमोदन आवश्यक है। आहार कभी डेटा अपलोड नहीं करता; डेटासेट केवल आपके निर्यात करने पर ही जाते हैं।|अन्यप्रतिभागिनां दत्तांशसंग्रहाय प्रकाशनाय वा तेषां सूचितानुमतिः संस्थागतनैतिकानुमोदनं च आवश्यके। आहारः कदापि दत्तांशं न प्रेषयति।
+consent_title|Research participation consent|शोध भागीदारी सहमति|शोधभागित्वानुमतिः
+consent_sub|Separate from your personal diary. You can withdraw at any time.|आपकी व्यक्तिगत डायरी से अलग। आप कभी भी वापस ले सकते हैं।|व्यक्तिगतदैनिक्याः पृथक्। कदापि प्रत्याहर्तुं शक्यते।
+consent_toggle|I consent to anonymised research use|मैं अनाम शोध उपयोग के लिए सहमत हूँ|अनामशोधोपयोगाय सम्मतोऽस्मि
+consent_body|If you agree, AHARA creates a random participant ID and lets you export an anonymised dataset (no name, food descriptions, notes or calendar dates). You decide whether and with whom to share it. Participation is voluntary and you can withdraw consent at any time.|सहमति देने पर आहार एक यादृच्छिक प्रतिभागी आईडी बनाता है और आपको अनाम डेटासेट (बिना नाम, भोजन विवरण, टिप्पणी या तिथि) निर्यात करने देता है। साझा करना है या नहीं और किससे, यह आप तय करते हैं। भागीदारी स्वैच्छिक है और आप कभी भी सहमति वापस ले सकते हैं।|अनुमतौ दत्तायां आहारः यादृच्छिकं प्रतिभागि-अभिज्ञानं रचयति, अनामदत्तांशनिर्यातं च अनुमन्यते (नाम, भोज्यविवरणं, टिप्पणी, तिथिः च न)। प्रेषणं भवतः निर्णयः। भागित्वं स्वैच्छिकम्, अनुमतिः कदापि प्रत्याहार्या।
+participant_id|Participant ID: {0}|प्रतिभागी आईडी: {0}|प्रतिभागि-अभिज्ञानम्: {0}
+consent_given_on|Consent given on {0}|सहमति दी गई: {0}|अनुमतिः दत्ता: {0}
+all_records|All records on this device|इस डिवाइस के सभी रिकॉर्ड|अस्य यन्त्रस्य सर्वे अभिलेखाः
+digestive_response_freq|Digestive response frequency|पाचन प्रतिक्रिया आवृत्ति|पाचनप्रतिक्रियावृत्तिः
+energy_pattern_analysis|Energy pattern analysis|ऊर्जा पैटर्न विश्लेषण|बलप्रवृत्तिविश्लेषणम्
+energy_by_interval_class|Average energy (1–5) by preceding interval|पूर्ववर्ती अंतराल के अनुसार औसत ऊर्जा (1–5)|पूर्वान्तरालानुसारं सरासरीबलम् (1–5)
+before_short|before|पहले|पूर्वम्
+after_short|after|बाद|पश्चात्
+group_comparison|Participant & group comparison|प्रतिभागी एवं समूह तुलना|प्रतिभागिसमूहतुलना
+group_comparison_sub|Import anonymised AHARA CSV files shared by consenting participants.|सहमत प्रतिभागियों द्वारा साझा की गई अनाम आहार CSV फ़ाइलें आयात करें।|सम्मतप्रतिभागिभिः प्रेषिताः अनाम-आहार-CSV-सञ्चिकाः आनयतु।
+import_csv|Import CSV files|CSV फ़ाइलें आयात करें|CSV सञ्चिकाः आनय
+include_my_data|Include my own data|मेरा डेटा शामिल करें|मम दत्तांशं योजय
+participants_n|{0} participant(s)|{0} प्रतिभागी|{0} प्रतिभागिनः
+participant|Participant|प्रतिभागी|प्रतिभागी
+energy|Energy|ऊर्जा|बलम्
+group|Group|समूह|समूहः
+by_prakriti|By Prakriti|प्रकृति अनुसार|प्रकृत्यनुसारम्
+by_agni|By Agni|अग्नि अनुसार|अग्न्यनुसारम्
+correlation_note|Group summaries are exploratory and descriptive. Small samples, self-reported assessments and self-selected participants limit any inference; use proper statistical analysis before drawing conclusions.|समूह सारांश अन्वेषणात्मक और वर्णनात्मक हैं। छोटे नमूने, स्व-आकलन और स्व-चयनित प्रतिभागी निष्कर्ष सीमित करते हैं; निष्कर्ष से पहले उचित सांख्यिकीय विश्लेषण करें।|समूहसारांशाः अन्वेषणात्मकाः वर्णनात्मकाश्च। अल्पप्रतिदर्शः स्वपरीक्षणं स्वचितप्रतिभागिनश्च अनुमानं सीमयन्ति; निष्कर्षात् पूर्वं सम्यक् सांख्यिकीविश्लेषणं कुर्यात्।
+reminders_title|Notifications & reminders|सूचनाएँ एवं अनुस्मारक|सूचनाः स्मारकाणि च
+reminders_note|Reminders only prompt you to keep your diary. AHARA does not prescribe fixed meal times.|अनुस्मारक केवल डायरी भरने की याद दिलाते हैं। आहार निश्चित भोजन समय निर्धारित नहीं करता।|स्मारकाणि केवलं दैनिकीलेखनं स्मारयन्ति। आहारः नियतभोजनकालं न विदधाति।
+permission_needed|Notification permission needed|सूचना अनुमति आवश्यक|सूचनानुमतिः आवश्यकी
+permission_body|Allow AHARA to show notifications so reminders can appear.|अनुस्मारक दिखाने के लिए आहार को सूचनाओं की अनुमति दें।|स्मारकप्रदर्शनाय आहाराय सूचनानुमतिं ददातु।
+allow_notifications|Allow notifications|सूचनाओं की अनुमति दें|सूचनाः अनुमन्यताम्
+meal_diary_reminders|Meal diary|भोजन डायरी|भोजनदैनिकी
+missing_meal_reminder|Missing meal record reminder|छूटे भोजन रिकॉर्ड का अनुस्मारक|अनभिलिखितभोजनस्मारकम्
+missing_meal_reminder_sub|Remind me if nothing is recorded for {0} h (8 am–10 pm)|{0} घंटे तक कुछ दर्ज न हो तो याद दिलाएँ (सुबह 8–रात 10)|{0} होराः यावत् किमपि न अभिलिखितं चेत् स्मारय (8–22)
+remind_after|Remind after|इतने समय बाद याद दिलाएँ|अनन्तरं स्मारय
+summaries|Summaries|सारांश|सारांशाः
+daily_summary|Daily food habit summary|दैनिक आहार आदत सारांश|दैनिकाहारसारांशः
+daily_summary_sub|Every day at {0}|प्रतिदिन {0} बजे|प्रतिदिनं {0}
+weekly_report|Weekly behaviour report|साप्ताहिक व्यवहार रिपोर्ट|साप्ताहिकव्यवहारप्रतिवेदनम्
+weekly_report_sub|Sundays at 19:00|रविवार 19:00 बजे|रविवासरे 19:00
+send_test|Send a test notification|परीक्षण सूचना भेजें|परीक्षणसूचनां प्रेषय
+notif_test_title|AHARA|आहार|आहारः
+notif_test_text|Notifications are working.|सूचनाएँ काम कर रही हैं।|सूचनाः कार्यं कुर्वन्ति।
+notif_meal_title|Meal diary|भोजन डायरी|भोजनदैनिकी
+notif_meal_text|No meal recorded for {0} h. Did you eat? Add it to your diary.|{0} घंटे से कोई भोजन दर्ज नहीं। क्या आपने खाया? डायरी में जोड़ें।|{0} होराः यावत् भोजनं न अभिलिखितम्। किं भुक्तम्? दैनिक्यां योजयतु।
+notif_meal_none|Start your AHARA diary by recording your next meal.|अगला भोजन दर्ज करके अपनी आहार डायरी शुरू करें।|अग्रिमं भोजनम् अभिलिख्य आहारदैनिकीम् आरभताम्।
+notif_daily_title|Today's AHARA summary|आज का आहार सारांश|अद्यतनाहारसारांशः
+notif_daily_text|{0} meals · avg interval {1} h · {2} within 1 Yama · {3} beyond 2 Yamas.|{0} भोजन · औसत अंतराल {1} घं. · {2} याम के भीतर · {3} दो याम से अधिक।|{0} भोजनानि · सरासरी अन्तरालम् {1} हो. · {2} याममध्ये · {3} यामयुग्मातीतानि।
+notif_weekly_title|Your weekly AHARA report|आपकी साप्ताहिक आहार रिपोर्ट|साप्ताहिकाहारप्रतिवेदनम्
+notif_weekly_text|This week: {0} meals · avg interval {1} h · post-meal discomfort {2}%. Open AHARA for details.|इस सप्ताह: {0} भोजन · औसत अंतराल {1} घं. · भोजनोत्तर असुविधा {2}%। विवरण के लिए आहार खोलें।|अस्मिन् सप्ताहे: {0} भोजनानि · सरासरी अन्तरालम् {1} हो. · असुखम् {2}%। विवरणाय आहारम् उद्घाटयतु।
+settings_title|Settings & privacy|सेटिंग्स एवं गोपनीयता|विन्यासाः गोपनीयता च
+settings_sub|Language, Yama benchmark, data|भाषा, याम मानदंड, डेटा|भाषा, याममानदण्डः, दत्तांशः
+language|Language|भाषा|भाषा
+observation_settings|Observation engine|निरीक्षण इंजन|निरीक्षणयन्त्रम्
+observation_settings_sub|Configurable Yama benchmark used in all analyses|सभी विश्लेषणों में प्रयुक्त परिवर्तनीय याम मानदंड|सर्वविश्लेषणेषु प्रयुक्तः परिवर्तनीयः याममानदण्डः
+yama_length|1 Yama = {0} hours|1 याम = {0} घंटे|एकः यामः = {0} होराः
+yama_length_note|Conventional reference is about 3 hours. Adjust only if your teacher or text uses a different value.|परंपरागत संदर्भ लगभग 3 घंटे है। केवल तभी बदलें जब आपके गुरु या ग्रंथ में भिन्न मान हो।|परम्परागतः सन्दर्भः प्रायः 3 होराः। गुरुः ग्रन्थः वा भिन्नं मानं वदति चेत् एव परिवर्तयतु।
+include_overnight|Include overnight gaps|रात भर के अंतराल शामिल करें|रात्र्यन्तरालानि योजय
+include_overnight_sub|Count the gap from dinner to the next day's first meal|रात के भोजन से अगले दिन के पहले भोजन तक का अंतराल गिनें|रात्रिभोजनात् परदिनप्रथमभोजनपर्यन्तम् अन्तरालं गणय
+backup_sub|Back up your data as CSV|अपना डेटा CSV में बैकअप करें|दत्तांशं CSV रूपेण रक्ष
+privacy_security|Privacy & security|गोपनीयता एवं सुरक्षा|गोपनीयता सुरक्षा च
+privacy_summary|All records are stored privately on this device in the app's own storage, which other apps cannot read. If Android backup is on, your device may back up app data to your own Google account, encrypted where supported.|सभी रिकॉर्ड इस डिवाइस पर ऐप के निजी संग्रह में रहते हैं, जिसे अन्य ऐप नहीं पढ़ सकते। यदि Android बैकअप चालू है, तो डिवाइस ऐप डेटा को आपके अपने Google खाते में (जहाँ समर्थित हो, एन्क्रिप्टेड) बैकअप कर सकता है।|सर्वे अभिलेखाः अस्मिन् यन्त्रे अनुप्रयोगस्य निजसंग्रहे तिष्ठन्ति, यम् अन्ये अनुप्रयोगाः न पठन्ति। Android-प्रतिलिपिः सक्रिया चेत् भवतः Google-खाते गुप्तरूपेण रक्ष्यते।
+cloud_sync_note|Optional account and cloud sync are not enabled in this version — no account is needed and nothing is sent to a server.|इस संस्करण में वैकल्पिक खाता और क्लाउड सिंक चालू नहीं है — कोई खाता आवश्यक नहीं और कुछ भी सर्वर पर नहीं भेजा जाता।|अस्मिन् संस्करणे वैकल्पिकखातं मेघसमन्वयनं च न सक्रिये — खातं न आवश्यकम्, सेवकं प्रति किमपि न प्रेष्यते।
+privacy_policy|Privacy policy|गोपनीयता नीति|गोपनीयतानीतिः
+delete_all_data|Delete all my data|मेरा सारा डेटा हटाएँ|मम सर्वं दत्तांशम् अपनय
+delete_all_q|Delete all data?|सारा डेटा हटाएँ?|सर्वं दत्तांशम् अपनयेत्?
+delete_all_body|This permanently deletes your profile, meals, assessments, logs, research consent and settings from this device. Export a backup first if you need one.|यह आपकी प्रोफ़ाइल, भोजन, आकलन, लॉग, शोध सहमति और सेटिंग्स को इस डिवाइस से स्थायी रूप से हटा देगा। आवश्यक हो तो पहले बैकअप निर्यात करें।|इदं व्यक्तिविवरणं, भोजनानि, परीक्षणानि, अभिलेखान्, शोधानुमतिं, विन्यासान् च स्थायिरूपेण अपनयति। आवश्यकं चेत् प्रथमं प्रतिलिपिं निर्यातयतु।
+about|About|परिचय|परिचयः
+privacy_policy_full|AHARA PRIVACY POLICY\n\n1. What we collect: only what you enter — optional profile details, meal records, post-meal responses, energy check-ins, hydration and sleep logs, and optional Prakriti/Agni assessments.\n\n2. Where it is stored: in the app's private storage on this device. AHARA has no server and makes no network requests.\n\n3. Sharing: nothing is shared unless you explicitly export a file (PDF/CSV) and choose where to send it.\n\n4. Research data: only with separate, explicit research consent. The anonymised dataset excludes your name, food descriptions, notes and calendar dates, and uses a random participant ID. You may withdraw consent at any time.\n\n5. Backup: if Android backup is enabled, your device may include AHARA data in your personal backup, encrypted where supported by your device.\n\n6. Deletion: Settings → Delete all my data removes everything from this device. Uninstalling the app also deletes its data.\n\n7. Health information: AHARA is not a medical device and does not provide diagnoses. Observations are descriptive and based on your self-reports.\n\n8. Children: AHARA is intended for adults or for use under adult supervision.|आहार गोपनीयता नीति\n\n1. हम क्या लेते हैं: केवल वही जो आप दर्ज करते हैं — वैकल्पिक प्रोफ़ाइल, भोजन रिकॉर्ड, भोजनोत्तर प्रतिक्रिया, ऊर्जा चेक-इन, जल एवं नींद लॉग, और वैकल्पिक प्रकृति/अग्नि आकलन।\n\n2. कहाँ रखा जाता है: इसी डिवाइस पर ऐप के निजी संग्रह में। आहार का कोई सर्वर नहीं है और यह कोई नेटवर्क अनुरोध नहीं करता।\n\n3. साझाकरण: जब तक आप स्वयं फ़ाइल (PDF/CSV) निर्यात कर उसे भेजना न चुनें, कुछ भी साझा नहीं होता।\n\n4. शोध डेटा: केवल अलग, स्पष्ट शोध सहमति से। अनाम डेटासेट में आपका नाम, भोजन विवरण, टिप्पणियाँ और तिथियाँ नहीं होतीं, और यादृच्छिक प्रतिभागी आईडी उपयोग होती है। आप कभी भी सहमति वापस ले सकते हैं।\n\n5. बैकअप: Android बैकअप चालू होने पर डिवाइस आहार डेटा को आपके निजी बैकअप में (जहाँ समर्थित हो, एन्क्रिप्टेड) शामिल कर सकता है।\n\n6. हटाना: सेटिंग्स → मेरा सारा डेटा हटाएँ से सब कुछ इस डिवाइस से हट जाता है। ऐप अनइंस्टॉल करने पर भी डेटा हट जाता है।\n\n7. स्वास्थ्य जानकारी: आहार चिकित्सा उपकरण नहीं है और निदान नहीं करता। निरीक्षण वर्णनात्मक हैं और आपकी स्व-रिपोर्ट पर आधारित हैं।\n\n8. बच्चे: आहार वयस्कों के लिए या वयस्क की देखरेख में उपयोग हेतु है।|

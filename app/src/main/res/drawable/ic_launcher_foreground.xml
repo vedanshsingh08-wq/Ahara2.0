@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Leaf above a bowl: AHARA mark -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- leaf -->
+    <path android:fillColor="#FFD9B65C"
+        android:pathData="M54,28 C66,34 68,48 54,58 C40,48 42,34 54,28 Z" />
+    <path android:strokeColor="#FF4E6B52" android:strokeWidth="1.6"
+        android:pathData="M54,32 L54,56" />
+    <!-- bowl -->
+    <path android:fillColor="#FFFAF6EC"
+        android:pathData="M32,60 L76,60 C76,72 66,80 54,80 C42,80 32,72 32,60 Z" />
+    <path android:fillColor="#FFFAF6EC"
+        android:pathData="M46,80 L62,80 L60,84 L48,84 Z" />
+</vector>

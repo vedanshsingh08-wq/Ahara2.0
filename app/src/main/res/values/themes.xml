@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ivory">#FFFAF6EC</color>
+    <color name="sage">#FF6F8F72</color>
+    <color name="sage_dark">#FF4E6B52</color>
+    <style name="Theme.Ahara" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/ivory</item>
+        <item name="android:statusBarColor">@color/sage_dark</item>
+        <item name="android:navigationBarColor">@color/ivory</item>
+        <item name="android:colorAccent">@color/sage</item>
+    </style>
+</resources>

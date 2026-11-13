@@ -1,0 +1,116 @@
+meal_BREAKFAST|Breakfast|नाश्ता|प्रातराशः
+meal_LUNCH|Lunch|दोपहर का भोजन|मध्याह्नभोजनम्
+meal_DINNER|Dinner|रात का भोजन|रात्रिभोजनम्
+meal_SNACK|Snack|अल्पाहार|अल्पाहारः
+qty_SMALL|Small|कम|अल्पम्
+qty_MEDIUM|Moderate|मध्यम|मध्यमम्
+qty_LARGE|Large|अधिक|अधिकम्
+app_POOR|Poor|कम|मन्दा
+app_NORMAL|Normal|सामान्य|सामान्या
+app_STRONG|Strong|तीव्र|तीव्रा
+app_VARIABLE|Variable|अस्थिर|विषमा
+hunger_0|No hunger|भूख नहीं|क्षुधा नास्ति
+hunger_1|Slight|हल्की|अल्पा
+hunger_2|Moderate|मध्यम|मध्यमा
+hunger_3|Strong|तेज़|तीव्रा
+hunger_4|Intense|बहुत तेज़|अतितीव्रा
+energy_1|Very low|बहुत कम|अत्यल्पम्
+energy_2|Low|कम|अल्पम्
+energy_3|Moderate|मध्यम|मध्यमम्
+energy_4|Good|अच्छी|उत्तमम्
+energy_5|Very good|बहुत अच्छी|अत्युत्तमम्
+sev_0|None|नहीं|नास्ति
+sev_1|Mild|हल्का|अल्पम्
+sev_2|Moderate|मध्यम|मध्यमम्
+sev_3|Strong|तीव्र|तीव्रम्
+comfort_1|Very uncomfortable|बहुत असहज|अत्यसुखम्
+comfort_2|Uncomfortable|असहज|असुखम्
+comfort_3|Neutral|सामान्य|मध्यमम्
+comfort_4|Comfortable|सहज|सुखम्
+comfort_5|Very comfortable|बहुत सहज|अतिसुखम्
+diary_title|Food diary|आहार डायरी|आहारदैनिकी
+diary_empty|Your diary is empty. Record your first meal with the “Add meal” button.|आपकी डायरी खाली है। “भोजन जोड़ें” बटन से पहला भोजन दर्ज करें।|दैनिकी रिक्ता। “भोजनं योजय” इत्यनेन प्रथमं भोजनम् अभिलिखतु।
+delete_meal_q|Delete this meal?|यह भोजन हटाएँ?|इदं भोजनम् अपनयेत्?
+delete_meal_body|This record will be permanently removed from your diary.|यह रिकॉर्ड आपकी डायरी से स्थायी रूप से हट जाएगा।|अयम् अभिलेखः दैनिक्याः स्थायिरूपेण अपनेष्यते।
+skipped_meal|Skipped / missed meal|छोड़ा गया भोजन|त्यक्तं भोजनम्
+hunger|Hunger|भूख|क्षुधा
+discomfort_short|Discomfort|असुविधा|असुखम्
+comfortable|Comfortable|सहज|सुखम्
+response_pending|Response pending|प्रतिक्रिया बाकी|प्रतिक्रिया अवशिष्टा
+iv_short|Within 1 Yama|1 याम के भीतर|याममध्ये
+iv_normal|1–2 Yamas|1–2 याम|एकद्वियामौ
+iv_long|Beyond 2 Yamas|2 याम से अधिक|यामयुग्मातीतम्
+meal_basics|Meal & time|भोजन एवं समय|भोजनं कालश्च
+since_previous|Since previous meal:|पिछले भोजन से:|पूर्वभोजनात्:
+mark_skipped|Mark as skipped / missed|छोड़ा गया चिह्नित करें|त्यक्तम् इति चिह्नय
+mark_skipped_sub|Use this when a usual meal was not eaten.|जब सामान्य भोजन नहीं किया गया हो तब इसका उपयोग करें।|यदा नियतभोजनं न कृतं तदा उपयुज्यताम्।
+what_did_you_eat|What did you eat?|आपने क्या खाया?|किं भुक्तम्?
+food_name|Food name|भोजन का नाम|भोज्यनाम
+ingredients|Ingredients|सामग्री|द्रव्याणि
+quantity|Quantity|मात्रा|मात्रा
+before_eating|Before eating|खाने से पहले|भोजनात् पूर्वम्
+hunger_before|Hunger before eating|खाने से पहले भूख|भोजनात् पूर्वं क्षुधा
+appetite|Appetite status|रुचि / भूख की स्थिति|रुचिस्थितिः
+energy_before|Energy before meal|भोजन से पहले ऊर्जा|भोजनात् पूर्वं बलम्
+energy_after|Energy after meal|भोजन के बाद ऊर्जा|भोजनानन्तरं बलम्
+fatigue|Fatigue|थकान|क्लमः
+weakness|Perceived weakness|अनुभूत कमजोरी|दौर्बल्यम्
+after_eating|After eating|खाने के बाद|भोजनानन्तरम्
+record_response_now|Record post-meal response now|भोजनोत्तर प्रतिक्रिया अभी दर्ज करें|इदानीं प्रतिक्रियाम् अभिलिख
+record_response_later|Or record it later from the Post-Meal tracker (ideally 1–3 h after eating).|या बाद में भोजनोत्तर ट्रैकर से दर्ज करें (आदर्श रूप से भोजन के 1–3 घंटे बाद)।|अथवा पश्चात् भोजनोत्तरपृष्ठात् अभिलिखतु (भोजनात् 1–3 होरानन्तरम्)।
+notes|Notes|टिप्पणी|टिप्पणी
+additional_notes|Additional notes|अतिरिक्त टिप्पणी|अधिकटिप्पणी
+sym_heaviness|Abdominal heaviness|पेट में भारीपन|उदरगौरवम्
+sym_bloating|Bloating|पेट फूलना|आध्मानम्
+sym_acidity|Acidity-like sensation|अम्लता जैसी अनुभूति|अम्लतासदृशानुभवः
+sym_nausea|Nausea|जी मिचलाना|हृल्लासः
+sym_discomfort|Digestive discomfort|पाचन असुविधा|पाचनासुखम्
+sym_short_heaviness|Heavy|भारी|गौरवम्
+sym_short_bloating|Bloat|फूलना|आध्मानम्
+sym_short_acidity|Acidity|अम्लता|अम्लता
+sym_short_nausea|Nausea|मिचली|हृल्लासः
+sym_short_discomfort|Discomfort|असुविधा|असुखम्
+overall_comfort|Overall post-meal comfort|भोजन के बाद समग्र सहजता|भोजनोत्तरसमग्रसुखम्
+postmeal_title|Post-meal response|भोजनोत्तर प्रतिक्रिया|भोजनोत्तरप्रतिक्रिया
+symptom_freq_7d|Reported sensations (7 days)|बताई गई अनुभूतियाँ (7 दिन)|निवेदितानुभवाः (7 दिनानि)
+responses_recorded_n|{0} responses recorded|{0} प्रतिक्रियाएँ दर्ज|{0} प्रतिक्रियाः अभिलिखिताः
+pending_responses|Awaiting response (last 3 days)|प्रतिक्रिया बाकी (पिछले 3 दिन)|प्रतिक्रियाप्रतीक्षा (गतत्रिदिनानि)
+no_pending|All recent meals have a response recorded.|हाल के सभी भोजनों की प्रतिक्रिया दर्ज है।|सर्वेषां नूतनभोजनानां प्रतिक्रिया अभिलिखिता।
+recent_responses|Recent responses|हाल की प्रतिक्रियाएँ|नूतनप्रतिक्रियाः
+response_summary|Comfort {0}/5 · Energy after {1}/5|सहजता {0}/5 · बाद में ऊर्जा {1}/5|सुखम् {0}/5 · पश्चाद्बलम् {1}/5
+interval_title|Meal interval analysis|भोजन अंतराल विश्लेषण|भोजनान्तरविश्लेषणम्
+last_7_days|Last 7 days|पिछले 7 दिन|गतसप्तदिनानि
+last_14_days|Last 14 days|पिछले 14 दिन|गतचतुर्दशदिनानि
+last_30_days|Last 30 days|पिछले 30 दिन|गतत्रिंशद्दिनानि
+intervals_n|Intervals measured|मापे गए अंतराल|मापितान्तरालानि
+yama_classification|Yama classification|याम वर्गीकरण|यामवर्गीकरणम्
+interval_distribution|Meal interval distribution|भोजन अंतराल वितरण|भोजनान्तरवितरणम्
+hours_axis|Interval length in hours|अंतराल की अवधि (घंटे)|अन्तरालदैर्घ्यम् (होराः)
+meals_within_yama|Meals within 1 Yama|1 याम के भीतर भोजन|याममध्ये भोजनानि
+eating_without_hunger|Eating without perceived hunger|बिना भूख के भोजन|क्षुधां विना भोजनम्
+irregular_timings|Irregular meal timings|अनियमित भोजन समय|अनियतभोजनकालाः
+irregular|Irregular|अनियमित|अनियतम्
+typical_times|Your typical meal times|आपके सामान्य भोजन समय|भवतः सामान्यभोजनकालाः
+long_gaps|Gaps beyond 2 Yamas|2 याम से लंबे अंतराल|यामयुग्मातीतान्तरालानि
+skipped_meals|Skipped meals|छोड़े गए भोजन|त्यक्तभोजनानि
+energy_before_after_long|Energy before meal after long gap|लंबे अंतराल के बाद भोजन से पहले ऊर्जा|दीर्घान्तरालानन्तरं पूर्वबलम्
+energy_before_other|Energy before other meals|अन्य भोजन से पहले ऊर्जा|अन्यभोजनेभ्यः पूर्वबलम्
+recent_intervals|Recent intervals|हाल के अंतराल|नूतनान्तरालानि
+not_enough_data|Not enough data yet.|अभी पर्याप्त डेटा नहीं।|पर्याप्तदत्तांशः नास्ति।
+energy_title|Energy monitoring|ऊर्जा निगरानी|बलनिरीक्षणम्
+energy_checkin|Quick energy check-in|त्वरित ऊर्जा चेक-इन|शीघ्रबलपरीक्षणम्
+checkin_gap|{0} since your last meal|पिछले भोजन से {0}|अन्तिमभोजनात् {0}
+energy_now|Energy now|अभी ऊर्जा|इदानीं बलम्
+hunger_now|Hunger now|अभी भूख|इदानीं क्षुधा
+save_checkin|Save check-in|चेक-इन सहेजें|परीक्षणं रक्ष
+avg_energy_before|Avg energy before meals|भोजन से पहले औसत ऊर्जा|भोजनात् पूर्वं सरासरीबलम्
+avg_energy_after|Avg energy after meals|भोजन के बाद औसत ऊर्जा|भोजनानन्तरं सरासरीबलम्
+fatigue_reports|Fatigue reports|थकान रिपोर्ट|क्लमनिवेदनानि
+weakness_reports|Weakness reports|कमजोरी रिपोर्ट|दौर्बल्यनिवेदनानि
+energy_vs_gap|Energy vs meal gap|ऊर्जा बनाम भोजन अंतराल|बलं भोजनान्तरालं च
+after_normal_gap|After ≤2 Yamas|≤2 याम के बाद|यामद्वयान्तः
+after_long_gap|After >2 Yamas|>2 याम के बाद|यामद्वयातीते
+daily_energy_fluctuation|Daily energy fluctuation|दैनिक ऊर्जा उतार-चढ़ाव|दैनिकबलपरिवर्तनम्
+recent_checkins|Energy check-ins|ऊर्जा चेक-इन|बलपरीक्षणानि
+no_checkins|No check-ins in this period.|इस अवधि में कोई चेक-इन नहीं।|अस्मिन् काले परीक्षणं नास्ति।
+checkin_summary|Energy {0}/5 · Hunger {1}/4 · Fatigue: {2}|ऊर्जा {0}/5 · भूख {1}/4 · थकान: {2}|बलम् {0}/5 · क्षुधा {1}/4 · क्लमः: {2}
