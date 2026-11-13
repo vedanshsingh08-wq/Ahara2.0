@@ -15,6 +15,7 @@ object Strings {
         part5()
         part6()
         part7()
+        part8()
     }
 
     private fun put(k: String, en: String, hi: String, sa: String) { table[k] = arrayOf(en, hi, sa) }
@@ -273,6 +274,26 @@ object Strings {
         put("recent_checkins", "Energy check-ins", "ऊर्जा चेक-इन", "बलपरीक्षणानि")
         put("no_checkins", "No check-ins in this period.", "इस अवधि में कोई चेक-इन नहीं।", "अस्मिन् काले परीक्षणं नास्ति।")
         put("checkin_summary", "Energy {0}/5 · Hunger {1}/4 · Fatigue: {2}", "ऊर्जा {0}/5 · भूख {1}/4 · थकान: {2}", "बलम् {0}/5 · क्षुधा {1}/4 · क्लमः: {2}")
+        put("pick_indian_foods", "Choose from Indian foods", "भारतीय व्यंजनों में से चुनें", "भारतीयभोज्येभ्यः चिनु")
+        put("hide_food_picker", "Hide food list", "भोजन सूची छिपाएँ", "भोज्यसूचीं गोपय")
+        put("search_foods", "Search (e.g. poha, dal, पोहा)", "खोजें (जैसे पोहा, दाल, poha)", "अन्विष (यथा पोहा, दाल)")
+        put("no_food_match", "No match — type the food name below instead.", "कोई मेल नहीं — नीचे भोजन का नाम लिखें।", "न लब्धम् — अधः भोज्यनाम लिखतु।")
+        put("frequent_foods", "Your frequent foods", "आपके अक्सर खाए जाने वाले भोजन", "भवतः प्रायः भुक्तानि")
+        put("food_picker_hint", "Tap to add or remove. You can select several items and still edit the name below.", "जोड़ने या हटाने के लिए टैप करें। कई चीज़ें चुन सकते हैं और नीचे नाम बदल भी सकते हैं।", "योजनाय अपनयनाय वा स्पृशतु। बहूनि चेतुं शक्यन्ते, अधः नाम संशोधयितुं च।")
+        put("fcat_BREAKFAST", "Breakfast", "नाश्ता", "प्रातराशः")
+        put("fcat_SOUTH_INDIAN", "South Indian", "दक्षिण भारतीय", "दाक्षिणात्यम्")
+        put("fcat_ROTI_RICE", "Roti & rice", "रोटी व चावल", "रोटिका ओदनं च")
+    }
+    private fun part4() {
+        put("fcat_DAL", "Dal & legumes", "दाल", "सूपः (दालः)")
+        put("fcat_SABZI", "Sabzi", "सब्ज़ी", "शाकम्")
+        put("fcat_CURRY", "Paneer & curries", "पनीर व करी", "पनीरं व्यञ्जनानि च")
+        put("fcat_NONVEG", "Non-veg", "मांसाहार", "मांसाहारः")
+        put("fcat_SNACKS", "Snacks", "नाश्ता-चटपटा", "लघ्वाहारः")
+        put("fcat_SWEETS", "Sweets", "मिठाई", "मिष्टान्नम्")
+        put("fcat_DRINKS", "Drinks", "पेय", "पेयानि")
+        put("fcat_SIDES", "Sides", "साथ में", "उपव्यञ्जनानि")
+        put("fcat_FRUITS", "Fruits", "फल", "फलानि")
         put("profile_title", "Profile", "प्रोफ़ाइल", "व्यक्तिविवरणम्")
         put("profile_sub", "Name, age range, lifestyle", "नाम, आयु वर्ग, जीवनशैली", "नाम, वयोवर्गः, जीवनशैली")
         put("profile_setup_hint", "Tell AHARA a little about yourself. Every field is optional.", "आहार को अपने बारे में थोड़ा बताएँ। हर जानकारी वैकल्पिक है।", "आहाराय स्वविषये किञ्चित् वदतु। सर्वं वैकल्पिकम्।")
@@ -282,8 +303,6 @@ object Strings {
         put("gender_optional", "Gender (optional)", "लिंग (वैकल्पिक)", "लिङ्गम् (वैकल्पिकम्)")
         put("gender_FEMALE", "Female", "महिला", "स्त्री")
         put("gender_MALE", "Male", "पुरुष", "पुरुषः")
-    }
-    private fun part4() {
         put("gender_OTHER", "Other", "अन्य", "अन्यत्")
         put("gender_NA", "Prefer not to say", "बताना नहीं चाहते", "न वक्तुम् इच्छामि")
         put("lifestyle", "Lifestyle", "जीवनशैली", "जीवनशैली")
@@ -326,6 +345,8 @@ object Strings {
         put("no_assessments", "No assessments recorded.", "कोई आकलन दर्ज नहीं।", "परीक्षणं न अभिलिखितम्।")
         put("self_reported", "Self-reported", "स्व-रिपोर्ट", "स्वनिवेदितम्")
         put("practitioner_assisted", "Practitioner", "वैद्य", "वैद्यः")
+    }
+    private fun part5() {
         put("res_VATA", "Vata", "वात", "वातः")
         put("res_PITTA", "Pitta", "पित्त", "पित्तम्")
         put("res_KAPHA", "Kapha", "कफ", "कफः")
@@ -344,8 +365,6 @@ object Strings {
         put("res_PITTA_KAPHA_desc", "Two doshas — Pitta and Kapha — appear about equally prominent.", "दो दोष — पित्त और कफ — लगभग समान रूप से प्रमुख दिखते हैं।", "द्वौ दोषौ — पित्तकफौ — प्रायः समप्राधान्यौ।")
         put("res_VATA_KAPHA_desc", "Two doshas — Vata and Kapha — appear about equally prominent.", "दो दोष — वात और कफ — लगभग समान रूप से प्रमुख दिखते हैं।", "द्वौ दोषौ — वातकफौ — प्रायः समप्राधान्यौ।")
         put("res_TRIDOSHA_desc", "All three doshas appear in similar proportion.", "तीनों दोष लगभग समान अनुपात में दिखते हैं।", "त्रयः दोषाः प्रायः समानुपाते दृश्यन्ते।")
-    }
-    private fun part5() {
         put("res_SAMAGNI_desc", "Answers suggest balanced, regular digestive capacity.", "उत्तर संतुलित, नियमित पाचन क्षमता की ओर संकेत करते हैं।", "उत्तराणि समं नियतं पाचनसामर्थ्यं सूचयन्ति।")
         put("res_VISHAMAGNI_desc", "Answers suggest irregular, variable digestion.", "उत्तर अनियमित, अस्थिर पाचन की ओर संकेत करते हैं।", "उत्तराणि विषमं पाचनं सूचयन्ति।")
         put("res_TIKSHNAGNI_desc", "Answers suggest sharp, fast digestion with frequent hunger.", "उत्तर तीव्र, शीघ्र पाचन और बार-बार भूख की ओर संकेत करते हैं।", "उत्तराणि तीक्ष्णं शीघ्रं पाचनं पुनःपुनः क्षुधां च सूचयन्ति।")
@@ -388,6 +407,8 @@ object Strings {
         put("aq1_tikshna", "Is very strong and frequent", "बहुत तेज़ और बार-बार", "अतितीव्रा पुनःपुनः च")
         put("aq1_manda", "Is low; I rarely feel hungry", "कम; शायद ही भूख लगती है", "अल्पा; क्वचित् एव क्षुधा")
         put("aq2_q", "After a normal-sized meal you feel", "सामान्य भोजन के बाद आप महसूस करते हैं", "सामान्यभोजनानन्तरं भवान् अनुभवति")
+    }
+    private fun part6() {
         put("aq2_sama", "Light and comfortable", "हल्का और सहज", "लघुतां सुखं च")
         put("aq2_vishama", "Sometimes fine, sometimes bloated or gassy", "कभी ठीक, कभी पेट फूला या गैस", "कदाचित् सुखम्, कदाचित् आध्मानम्")
         put("aq2_tikshna", "Hungry again soon, sometimes with burning", "जल्दी फिर भूख, कभी जलन के साथ", "शीघ्रं पुनः क्षुधा, कदाचित् दाहः")
@@ -406,8 +427,6 @@ object Strings {
         put("aq5_sama", "Regular and well-formed", "नियमित और सुगठित", "नियता सुबद्धा च")
         put("aq5_vishama", "Irregular, alternating, with gas", "अनियमित, बदलती, गैस के साथ", "विषमा, परिवर्तिनी, सवाता")
         put("aq5_tikshna", "Frequent and loose", "बार-बार और पतली", "पुनःपुनः द्रवा च")
-    }
-    private fun part6() {
         put("aq5_manda", "Slow, heavy or sticky", "धीमी, भारी या चिपचिपी", "मन्दा, गुर्वी, पिच्छिला वा")
         put("aq6_q", "After meals you usually notice", "भोजन के बाद आप प्रायः अनुभव करते हैं", "भोजनानन्तरं प्रायः")
         put("aq6_sama", "Clear mind and steady energy", "स्पष्ट मन और स्थिर ऊर्जा", "प्रसन्नं मनः स्थिरं बलं च")
@@ -450,6 +469,8 @@ object Strings {
         put("research_sub", "For Ayurveda students & researchers", "आयुर्वेद छात्रों एवं शोधकर्ताओं के लिए", "आयुर्वेदच्छात्रेभ्यः शोधकेभ्यश्च")
         put("research_ethics", "Collecting or publishing data from other participants requires their informed consent and appropriate institutional ethics approval. AHARA never uploads data; datasets move only when you export them.", "अन्य प्रतिभागियों का डेटा एकत्र या प्रकाशित करने के लिए उनकी सूचित सहमति और उपयुक्त संस्थागत नैतिकता अनुमोदन आवश्यक है। आहार कभी डेटा अपलोड नहीं करता; डेटासेट केवल आपके निर्यात करने पर ही जाते हैं।", "अन्यप्रतिभागिनां दत्तांशसंग्रहाय प्रकाशनाय वा तेषां सूचितानुमतिः संस्थागतनैतिकानुमोदनं च आवश्यके। आहारः कदापि दत्तांशं न प्रेषयति।")
         put("consent_title", "Research participation consent", "शोध भागीदारी सहमति", "शोधभागित्वानुमतिः")
+    }
+    private fun part7() {
         put("consent_sub", "Separate from your personal diary. You can withdraw at any time.", "आपकी व्यक्तिगत डायरी से अलग। आप कभी भी वापस ले सकते हैं।", "व्यक्तिगतदैनिक्याः पृथक्। कदापि प्रत्याहर्तुं शक्यते।")
         put("consent_toggle", "I consent to anonymised research use", "मैं अनाम शोध उपयोग के लिए सहमत हूँ", "अनामशोधोपयोगाय सम्मतोऽस्मि")
         put("consent_body", "If you agree, AHARA creates a random participant ID and lets you export an anonymised dataset (no name, food descriptions, notes or calendar dates). You decide whether and with whom to share it. Participation is voluntary and you can withdraw consent at any time.", "सहमति देने पर आहार एक यादृच्छिक प्रतिभागी आईडी बनाता है और आपको अनाम डेटासेट (बिना नाम, भोजन विवरण, टिप्पणी या तिथि) निर्यात करने देता है। साझा करना है या नहीं और किससे, यह आप तय करते हैं। भागीदारी स्वैच्छिक है और आप कभी भी सहमति वापस ले सकते हैं।", "अनुमतौ दत्तायां आहारः यादृच्छिकं प्रतिभागि-अभिज्ञानं रचयति, अनामदत्तांशनिर्यातं च अनुमन्यते (नाम, भोज्यविवरणं, टिप्पणी, तिथिः च न)। प्रेषणं भवतः निर्णयः। भागित्वं स्वैच्छिकम्, अनुमतिः कदापि प्रत्याहार्या।")
@@ -468,8 +489,6 @@ object Strings {
         put("participants_n", "{0} participant(s)", "{0} प्रतिभागी", "{0} प्रतिभागिनः")
         put("participant", "Participant", "प्रतिभागी", "प्रतिभागी")
         put("energy", "Energy", "ऊर्जा", "बलम्")
-    }
-    private fun part7() {
         put("group", "Group", "समूह", "समूहः")
         put("by_prakriti", "By Prakriti", "प्रकृति अनुसार", "प्रकृत्यनुसारम्")
         put("by_agni", "By Agni", "अग्नि अनुसार", "अग्न्यनुसारम्")
@@ -512,6 +531,8 @@ object Strings {
         put("privacy_summary", "All records are stored privately on this device in the app's own storage, which other apps cannot read. If Android backup is on, your device may back up app data to your own Google account, encrypted where supported.", "सभी रिकॉर्ड इस डिवाइस पर ऐप के निजी संग्रह में रहते हैं, जिसे अन्य ऐप नहीं पढ़ सकते। यदि Android बैकअप चालू है, तो डिवाइस ऐप डेटा को आपके अपने Google खाते में (जहाँ समर्थित हो, एन्क्रिप्टेड) बैकअप कर सकता है।", "सर्वे अभिलेखाः अस्मिन् यन्त्रे अनुप्रयोगस्य निजसंग्रहे तिष्ठन्ति, यम् अन्ये अनुप्रयोगाः न पठन्ति। Android-प्रतिलिपिः सक्रिया चेत् भवतः Google-खाते गुप्तरूपेण रक्ष्यते।")
         put("cloud_sync_note", "Optional account and cloud sync are not enabled in this version — no account is needed and nothing is sent to a server.", "इस संस्करण में वैकल्पिक खाता और क्लाउड सिंक चालू नहीं है — कोई खाता आवश्यक नहीं और कुछ भी सर्वर पर नहीं भेजा जाता।", "अस्मिन् संस्करणे वैकल्पिकखातं मेघसमन्वयनं च न सक्रिये — खातं न आवश्यकम्, सेवकं प्रति किमपि न प्रेष्यते।")
         put("privacy_policy", "Privacy policy", "गोपनीयता नीति", "गोपनीयतानीतिः")
+    }
+    private fun part8() {
         put("delete_all_data", "Delete all my data", "मेरा सारा डेटा हटाएँ", "मम सर्वं दत्तांशम् अपनय")
         put("delete_all_q", "Delete all data?", "सारा डेटा हटाएँ?", "सर्वं दत्तांशम् अपनयेत्?")
         put("delete_all_body", "This permanently deletes your profile, meals, assessments, logs, research consent and settings from this device. Export a backup first if you need one.", "यह आपकी प्रोफ़ाइल, भोजन, आकलन, लॉग, शोध सहमति और सेटिंग्स को इस डिवाइस से स्थायी रूप से हटा देगा। आवश्यक हो तो पहले बैकअप निर्यात करें।", "इदं व्यक्तिविवरणं, भोजनानि, परीक्षणानि, अभिलेखान्, शोधानुमतिं, विन्यासान् च स्थायिरूपेण अपनयति। आवश्यकं चेत् प्रथमं प्रतिलिपिं निर्यातयतु।")

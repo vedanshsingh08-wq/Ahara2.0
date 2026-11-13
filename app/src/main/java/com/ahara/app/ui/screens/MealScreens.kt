@@ -3,6 +3,12 @@ package com.ahara.app.ui.screens
 import android.app.DatePickerDialog
 import android.app.TimePickerDialog
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.material3.FilterChip
+import androidx.compose.material3.FilterChipDefaults
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -44,6 +50,7 @@ import androidx.navigation.NavHostController
 import com.ahara.app.AppViewModel
 import com.ahara.app.Routes
 import com.ahara.app.data.Appetite
+import com.ahara.app.data.IndianFoods
 import com.ahara.app.data.MealEntry
 import com.ahara.app.data.MealType
 import com.ahara.app.data.Quantity
@@ -53,6 +60,7 @@ import com.ahara.app.engine.ObservationEngine.IntervalClass
 import com.ahara.app.ui.components.AharaScaffold
 import com.ahara.app.ui.components.BarChart
 import com.ahara.app.ui.components.ChoiceChips
+import com.ahara.app.ui.components.LocalLang
 import com.ahara.app.ui.components.NoteBox
 import com.ahara.app.ui.components.Pill
 import com.ahara.app.ui.components.ScaleSelector
@@ -222,6 +230,7 @@ fun AddMealScreen(vm: AppViewModel, id: Long, onDone: () -> Unit) {
 
         if (!m.skipped) {
             SectionCard(title = t("what_did_you_eat")) {
+                IndianFoodPicker(m, meals) { m = it }
                 OutlinedTextField(m.foodName, { m = m.copy(foodName = it) }, label = { Text(t("food_name")) }, modifier = Modifier.fillMaxWidth(), singleLine = true)
                 OutlinedTextField(m.ingredients, { m = m.copy(ingredients = it) }, label = { Text(t("ingredients")) }, modifier = Modifier.fillMaxWidth(), minLines = 2)
                 Text(t("quantity"), style = MaterialTheme.typography.titleSmall)
@@ -369,4 +378,80 @@ private fun ResponseEditor(
             )
         }
     }
+}
+
+/** Searchable picker of common Indian foods; tapping a food adds/removes it from the food name and adds its ingredients. */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+fun IndianFoodPicker(m: MealEntry, history: List<MealEntry>, onChange: (MealEntry) -> Unit) {
+    val lang = LocalLang.current
+    var open by remember { mutableStateOf(m.foodName.isBlank()) }
+    var query by remember { mutableStateOf("") }
+    var category by remember(m.mealType) { mutableStateOf(IndianFoods.suggestedCategory(m.mealType)) }
+    val selected = m.foodName.split(",").map { it.trim() }.filter { it.isNotEmpty() }
+
+    fun ingredientsFor(name: String): String =
+        IndianFoods.all.firstOrNull { it.en.equals(name, true) || it.hi == name }?.ingredients ?: ""
+
+    fun toggle(name: String) {
+        if (name in selected) {
+            onChange(m.copy(foodName = (selected - name).joinToString(", ")))
+        } else {
+            val existing = m.ingredients.split(",").map { it.trim() }.filter { it.isNotEmpty() }
+            val added = ingredientsFor(name).split(",").map { it.trim() }.filter { it.isNotEmpty() && it !in existing }
+            onChange(m.copy(foodName = (selected + name).joinToString(", "), ingredients = (existing + added).joinToString(", ")))
+        }
+    }
+
+    val frequent = remember(history) {
+        history.flatMap { it.foodName.split(",") }.map { it.trim() }.filter { it.isNotEmpty() }
+            .groupingBy { it }.eachCount().entries.sortedByDescending { it.value }.take(12).map { it.key }
+    }
+
+    @Composable
+    fun FoodChip(name: String) {
+        FilterChip(
+            selected = name in selected,
+            onClick = { toggle(name) },
+            label = { Text(name) },
+            colors = FilterChipDefaults.filterChipColors(selectedContainerColor = AharaColors.SageLight, selectedLabelColor = AharaColors.Ink)
+        )
+    }
+
+    OutlinedButton(onClick = { open = !open }, modifier = Modifier.fillMaxWidth()) {
+        Text(if (open) t("hide_food_picker") else t("pick_indian_foods"))
+    }
+    if (!open) return
+
+    OutlinedTextField(
+        query, { query = it }, label = { Text(t("search_foods")) },
+        singleLine = true, modifier = Modifier.fillMaxWidth()
+    )
+    if (query.isNotBlank()) {
+        val q = query.trim()
+        val matches = IndianFoods.all.filter { it.en.contains(q, true) || it.hi.contains(q) }.take(40)
+        if (matches.isEmpty()) Text(t("no_food_match"), style = MaterialTheme.typography.bodySmall, color = AharaColors.Muted)
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+            matches.forEach { FoodChip(IndianFoods.name(it, lang)) }
+        }
+    } else {
+        if (frequent.isNotEmpty()) {
+            Text(t("frequent_foods"), style = MaterialTheme.typography.titleSmall)
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) { frequent.forEach { FoodChip(it) } }
+        }
+        Row(Modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+            IndianFoods.categories.forEach { c ->
+                FilterChip(
+                    selected = c == category,
+                    onClick = { category = c },
+                    label = { Text(t("fcat_$c")) },
+                    colors = FilterChipDefaults.filterChipColors(selectedContainerColor = AharaColors.Beige)
+                )
+            }
+        }
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+            IndianFoods.all.filter { it.category == category }.forEach { FoodChip(IndianFoods.name(it, lang)) }
+        }
+    }
+    Text(t("food_picker_hint"), style = MaterialTheme.typography.bodySmall, color = AharaColors.Muted)
 }

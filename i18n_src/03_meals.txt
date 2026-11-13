@@ -114,3 +114,21 @@ daily_energy_fluctuation|Daily energy fluctuation|दैनिक ऊर्ज�
 recent_checkins|Energy check-ins|ऊर्जा चेक-इन|बलपरीक्षणानि
 no_checkins|No check-ins in this period.|इस अवधि में कोई चेक-इन नहीं।|अस्मिन् काले परीक्षणं नास्ति।
 checkin_summary|Energy {0}/5 · Hunger {1}/4 · Fatigue: {2}|ऊर्जा {0}/5 · भूख {1}/4 · थकान: {2}|बलम् {0}/5 · क्षुधा {1}/4 · क्लमः: {2}
+pick_indian_foods|Choose from Indian foods|भारतीय व्यंजनों में से चुनें|भारतीयभोज्येभ्यः चिनु
+hide_food_picker|Hide food list|भोजन सूची छिपाएँ|भोज्यसूचीं गोपय
+search_foods|Search (e.g. poha, dal, पोहा)|खोजें (जैसे पोहा, दाल, poha)|अन्विष (यथा पोहा, दाल)
+no_food_match|No match — type the food name below instead.|कोई मेल नहीं — नीचे भोजन का नाम लिखें।|न लब्धम् — अधः भोज्यनाम लिखतु।
+frequent_foods|Your frequent foods|आपके अक्सर खाए जाने वाले भोजन|भवतः प्रायः भुक्तानि
+food_picker_hint|Tap to add or remove. You can select several items and still edit the name below.|जोड़ने या हटाने के लिए टैप करें। कई चीज़ें चुन सकते हैं और नीचे नाम बदल भी सकते हैं।|योजनाय अपनयनाय वा स्पृशतु। बहूनि चेतुं शक्यन्ते, अधः नाम संशोधयितुं च।
+fcat_BREAKFAST|Breakfast|नाश्ता|प्रातराशः
+fcat_SOUTH_INDIAN|South Indian|दक्षिण भारतीय|दाक्षिणात्यम्
+fcat_ROTI_RICE|Roti & rice|रोटी व चावल|रोटिका ओदनं च
+fcat_DAL|Dal & legumes|दाल|सूपः (दालः)
+fcat_SABZI|Sabzi|सब्ज़ी|शाकम्
+fcat_CURRY|Paneer & curries|पनीर व करी|पनीरं व्यञ्जनानि च
+fcat_NONVEG|Non-veg|मांसाहार|मांसाहारः
+fcat_SNACKS|Snacks|नाश्ता-चटपटा|लघ्वाहारः
+fcat_SWEETS|Sweets|मिठाई|मिष्टान्नम्
+fcat_DRINKS|Drinks|पेय|पेयानि
+fcat_SIDES|Sides|साथ में|उपव्यञ्जनानि
+fcat_FRUITS|Fruits|फल|फलानि

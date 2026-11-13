@@ -32,7 +32,7 @@ jobs:
         run: gradle --no-daemon assembleRelease
 
       - name: Rename APK
-        run: cp app/build/outputs/apk/release/app-release.apk AHARA-v1.0.0-build${{ github.run_number }}.apk
+        run: cp app/build/outputs/apk/release/app-release.apk AHARA-v1.1.0-build${{ github.run_number }}.apk
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
